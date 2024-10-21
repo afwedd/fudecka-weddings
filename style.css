@@ -33,6 +33,10 @@ h6 {
     font-size: 20px;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 .sheet-container {
     display: flex;
     align-items: center;
