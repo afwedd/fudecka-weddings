@@ -1,5 +1,6 @@
 body {
     font-family: "Times New Roman", Georgia, Serif;
+    font-size: 18px;
     background-color: rgb(245, 237, 225)
 }
 
@@ -13,8 +14,20 @@ h6 {
     letter-spacing: 5px;
 }
 
+.nav-target-spacer {
+    margin-top: 60px;
+}
+
+.narrower {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
 .flex-container {
-    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -113,6 +126,33 @@ h6 {
     letter-spacing: 1px;
 }
 
+/* form button */
+
+.form-button {
+    text-decoration: none;
+    background-color: #777777;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 16px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0px 2px 1px -1px rgba(119, 119, 119, 0.2), 0px 1px 1px 0px rgba(119, 119, 119, 0.14), 0px 1px 3px 0px rgba(119, 119, 119, 0.12)
+}
+
+.form-button:hover {
+    background-color: #828282;
+}
+
+.form-button:active {
+    background-color: #a4a4a4;
+}
+
 /* Scroll to Top Button */
 
 .scroll-top-btn {
@@ -169,5 +209,9 @@ h6 {
 
     .padding-top-nav {
         padding-top: 0;
+    }
+
+    .nav-target-spacer {
+        margin-top: 0;
     }
 }
