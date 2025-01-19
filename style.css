@@ -215,3 +215,16 @@ h6 {
         margin-top: 0;
     }
 }
+/* icons */
+
+.social-icon {
+    width: 30px;
+    height: auto;
+}
+
+.social-icon-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 5px;
+}
